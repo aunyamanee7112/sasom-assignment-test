@@ -1,4 +1,6 @@
-import ProductDetail from "./components/page/ProductTemplate";
+import dynamic from "next/dynamic";
+
+const ProductDetail = dynamic(() => import('./components/page/ProductTemplate'))
 
 export default function Home() {
   return (

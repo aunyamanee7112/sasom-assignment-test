@@ -19,7 +19,7 @@ const RangeBid = () => {
     <div className="lg:border-b">
       <Text label={productName} className="text-xl mb-3" />
       <div className="inline-flex gap-1 text-gray-500 mb-3 lg:text-sm text-xs">
-        <Text label={brand} />
+        <Text className="turncate" label={brand} />
         <div>|</div>
         <Text label={productId} />
       </div>

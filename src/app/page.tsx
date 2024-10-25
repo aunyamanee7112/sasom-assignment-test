@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProductDetail from "./components/page/ProductDetail";
+import ProductDetail from "./components/page/ProductTemplate";
 
 export default function Home() {
   return (

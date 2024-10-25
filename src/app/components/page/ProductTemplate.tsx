@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import ProductDetail from "../templates/ProductDetail";
 import ProductPreview from "../templates/ProductPreview";

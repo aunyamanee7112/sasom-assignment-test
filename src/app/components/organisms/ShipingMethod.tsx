@@ -22,8 +22,9 @@ const ShipingMethod = () => {
     <div className="pt-10">
       <Text label="shipping method" className="capitalize" iconSuffix="/info.svg"/>
       <div className="inline-flex flex-col">
-        {DATA_SHIPPING_DETAIL.map((item) => (
+        {DATA_SHIPPING_DETAIL.map((item,index) => (
           <Textlist
+            key={index}
             description={item.description}
             header={item.header}
             icon={item.icon}

@@ -24,8 +24,8 @@ const RangeBid = () => {
         <Text label={productId} />
       </div>
       <div className="flex justify-around py-6 text-center">
-        {prices.map((item) => (
-          <Price type={item.type} price={item.value} />
+        {prices.map((item,index) => (
+          <Price key={index} type={item.type} price={item.value} />
         ))}
       </div>
     </div>

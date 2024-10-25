@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "../atom/Button";
-import Text from "../atom/Text";
 import ProductDetail from "../templates/ProductDetail";
 import ProductPreview from "../templates/ProductPreview";
 import Header from "../templates/Header";
